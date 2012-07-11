@@ -1,0 +1,22 @@
+---
+layout: layout
+title: Agiliq Articles
+---
+<div class="sixteen columns blog post main-content">
+    <div class="content no-img">
+        <div class="sixteen columns omega">
+            <div class="content">
+                <div class="related">
+                    <ul class="posts">
+			            <h2>List of Aricles</h2>
+                        {% for post in site.posts %}
+                        <li>
+	                        <span class="posts">{{ post.date | date_to_string }}</span> &raquo; <a class="posts"href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
