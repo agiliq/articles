@@ -1,15 +1,15 @@
 Asset pipeline is cool.
 
-$ rails console --sandbox
+    $ rails console --sandbox
 
 What is the Python equivalent.
 
-Rails url routing is more intutive and simpler
+Rails url routing is more intuitive and simpler
 
-/foo/:bar/:baz 
+    /foo/:bar/:baz 
 
 vs
 
-/foo/(<bar>\w+)/(<baz>\w+)
+    /foo/(<bar>\w+)/(<baz>\w+)
 
-0 is truthy in ruby. Thats different from almost al languages.
+0 is truthy in ruby. Thats different from almost all languages.
