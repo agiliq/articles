@@ -1,10 +1,15 @@
-Dheeraj:
+---
+layout: post
+title: Shell Tips And Tricks
+---
+
+**Dheeraj:**
 
 readlink prints value of a symbolic link or canonical file name
 
     readlink -f filename.ext
 
-Javed:
+**Javed:**
 
     ctrl+r - search command in history
     ctrl+l - clear
@@ -14,19 +19,19 @@ Javed:
     echo "import os; print os.getcwd()" | python - un-interactive prompt (also works for redis-cli, mysql or any other prompt)
     python manage.py test; alert - notify after completion
 
-Shabda:
+**Shabda:**
 
-I use fish shell. http://en.wikipedia.org/wiki/Friendly_interactive_shell
+I use fish shell. <http://en.wikipedia.org/wiki/Friendly_interactive_shell>
 
 What I like about it is up and down arrow are mapped to search command history, they are better than bash ctrl + r as it matches wildcard style, instead of start only.
 
-Dheeraj:
+**Dheeraj:**
 
 We used to restart memcached to flush the cache. Found out an easier way to do this (without sudo):
   
     echo flush_all | nc localhost 11211
     
-Akshar:
+**Akshar:**
 
     Ctrl + a - move cursor to beginning of line
     Ctrl + e - move cursor to end of line

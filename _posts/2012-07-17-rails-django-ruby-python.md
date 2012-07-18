@@ -1,3 +1,8 @@
+---
+layout: post
+title: Rails Django Ruby Python
+---
+
 Ruby: gem install
 Python: pip install
 
