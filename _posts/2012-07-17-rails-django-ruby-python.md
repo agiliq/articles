@@ -34,3 +34,8 @@ Django: Template tags
 Rails: config/routes.rb
 Django: urls.py
 
+Rails: callbacks (such as  before_save)
+Django: signals (Such as pre_save)
+
+Rails: custom rake tasks
+Django: Custom management commands
