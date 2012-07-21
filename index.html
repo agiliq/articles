@@ -11,7 +11,7 @@ title: Agiliq Articles
 			            <h2>List of Aricles</h2>
                         {% for post in site.posts %}
                         <li>
-	                        <span class="posts">{{ post.date | date_to_string }}</span> &raquo; <a class="posts"href="{{ post.url }}">{{ post.title }}</a>
+	                        <span class="posts">{{ post.date | date_to_string }}</span> &raquo; <a class="posts"href="{{ post.url | remove_first:'/' }}">{{ post.title }}</a>
                         </li>
                         {% endfor %}
                     </ul>

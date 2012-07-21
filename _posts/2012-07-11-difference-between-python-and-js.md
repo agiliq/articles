@@ -1,3 +1,8 @@
+---
+layout: post
+title: Difference Between Python And Js
+---
+
 Javascript:
 
     parseInt(1 / 0, 19)

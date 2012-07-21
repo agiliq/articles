@@ -1,9 +1,9 @@
---
+---
 layout: post
 title: Setting Goals
 excerpt: Why do you need to set goals
 category: General
---
+---
 
 'Would you tell me, please, which way I ought to go from here?'  
 'That depends a good deal on where you want to get to,' said the Cat.  

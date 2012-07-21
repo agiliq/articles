@@ -18,11 +18,11 @@ layout: layout
 </div>
 <div class="four columns sidebar">
     <div class="pages-widget">
-        <h3><a href="/">{{ "List of Articles" }}</a></h3>
+        <h3><a href="{{ site.baseurl }}">{{ "List of Articles" }}</a></h3>
         <ul>
             {% for post in site.posts %}
                 <li>
-	            <a href="{{ post.url }}">{{ post.title }}</a>
+	            <a href="{{ post.url | remove_first:'/' }}">{{ post.title }}</a>
                 </li>
             {% endfor %}
         </ul>

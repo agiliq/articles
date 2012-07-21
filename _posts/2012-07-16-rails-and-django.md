@@ -1,3 +1,8 @@
+---
+layout: post
+title: Rails And Django
+---
+
 Asset pipeline is cool.
 
     $ rails console --sandbox
